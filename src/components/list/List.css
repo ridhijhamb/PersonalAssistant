@@ -1,0 +1,63 @@
+
+
+.list{
+    background-color: #ebecf0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0.5rem;
+    margin:1rem;
+    width:230px;
+
+}
+.box{
+
+    display: flex;     
+    flex-direction: column; 
+}
+.listAddCard{
+    justify-content: center;
+    color:#5e6c84;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.listTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:5px;
+}
+
+.listHead{
+    
+    cursor: pointer;
+}
+input[type=text] {
+    box-sizing: border-box;
+    border: blanchedalmond;
+    border-radius: 2px;
+    box-shadow: 1px 1px #888888;
+    padding: 6px 12px;
+
+  }
+
+  .moveCard{
+   
+    margin: 1px 3px ;
+      background-color: rgba(0,0,0,0.4);
+      display: flex;
+      width: 95px;
+      height:20px;
+      padding:4px;
+      border-radius: 4px;
+      color: white;
+        cursor: pointer;
+     
+      
+  }
+  span{
+      margin-left: 3px;
+  }

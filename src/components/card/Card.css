@@ -1,0 +1,66 @@
+.box-1{
+    display: flex;
+    flex-direction: column;
+    background-color: #ebecf0;
+    border-radius: 0.2rem;
+ }
+
+ .box-1 input[type=text] {
+    box-sizing: border-box;
+    border: blanchedalmond;
+    border-radius: 2px;
+    box-shadow: 1px 1px #888888;
+    margin: 2px;
+    width: 100%;
+  }
+
+  .addCardButton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius:0.2rem;
+    color: white;
+    background-color: #5AAC44;
+    font-size: 0.8rem;
+    align-items: center;
+    width:70px;
+    height:25px;
+    margin: 2px;;
+}
+.cardTitle{
+    background-color: white;
+    padding:4px;
+    width:202px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 2px;
+    word-wrap: break-word;
+}
+
+.cardLabel{
+    width:30px;
+    border-radius: 6px;
+    height:5px;
+    background-color: #61bd4f;
+
+}
+.cardTime{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width:55px;
+    font-size: 12px;
+    height:20px;
+    background-color: #ec9488;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.cardImg{
+    width:202px;
+    height:150px;
+    border-radius: 3px;;
+}
